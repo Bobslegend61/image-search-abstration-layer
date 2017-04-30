@@ -1,0 +1,29 @@
+{
+  "name": "image-search-abstration-layer",
+  "version": "1.0.0",
+  "description": "An app that allows you to search for images and and browse recent search queries.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobslegend61/image-search-abstration-layer.git"
+  },
+  "keywords": [
+    "images",
+    "search"
+  ],
+  "author": "Alabi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bobslegend61/image-search-abstration-layer/issues"
+  },
+  "homepage": "https://github.com/Bobslegend61/image-search-abstration-layer#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6",
+    "node-bing-api": "^3.2.1"
+  }
+}

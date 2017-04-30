@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Image Search Abstraction Layer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <!-- CDN fontawesome-->
+  <script src="https://use.fontawesome.com/a22e061702.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="git-container">
+      <a href="https://github.com/Bobslegend61/image-search-abstration-layer" target="_blank"><span class="git-span"><i class="fa fa-github fa-2x"></i>&nbsp <span class="git-write">GitHub</span></span></a>
+    </div>
+    <div class="jumbotron">
+      <h2>Api basejump: Image Search Abstraction Layer</h2>
+      <div class="well">
+        <p>User stories:</p>
+        <ul>
+          <li> I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+          <li> I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+          <li>I can get a list of the most recently submitted search strings.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h4>Example usage:</h4>
+      <ul>
+        <li class="redColor">https://hostname/api/imagesearch/lolcats%20funny?offset=10 </li>
+        <li class="redColor">https://hostname/api/latest/imagesearch/</li>
+      </ul>
+      <h4>Example output:</h4>
+      <ul>
+        <li class="redColor">{ "snippet": "Feline Influenza - All About Cat Flu | Pets4Homes", "webSearchUrl": "https://www.bing.com/cr?IG=20CD6541A20B4DF18F35D3559670CE0B&CID=3F85C92161AC6A9426E1C351603C6BD6&rd=1&h=QiDga1uO6YMfTfNGsIPyHexjyNQCeQYM8KJqjE8BTE0&v=1&r=https%3a%2f%2fwww.bing.com%2fimages%2fsearch%3fview%3ddetailv2%26FORM%3dOIIRPO%26q%3dcats%26id%3dF63A2F50D00F06C2262A36002BA6A1E2398CE311%26simid%3d608002607032305733&p=DevEx,5006.1",
+          "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.oKB3WKYUlPipqdPtIxQG-QEsDH&pid=Api", "content": "http://www.bing.com/cr?IG=20CD6541A20B4DF18F35D3559670CE0B&CID=3F85C92161AC6A9426E1C351603C6BD6&rd=1&h=G0NZCn5RX24bLLVTSb0Eo4BcMzWrB8zTnI-sXwhUAOw&v=1&r=http%3a%2f%2fwww.pets4homes.co.uk%2fimages%2farticles%2f1111%2flarge%2ffeline-influenza-all-about-cat-flu-5239fffd61ddf.jpg&p=DevEx,5008.1"
+          } </li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
